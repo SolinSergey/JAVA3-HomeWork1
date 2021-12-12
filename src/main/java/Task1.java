@@ -14,7 +14,7 @@ public class Task1 {
 
     }
     public static <T> void correctionMassiv(T[] massiv, int pos1, int pos2){
-        if (pos1<0 || pos1>= massiv.length || pos2<0 || pos2>= massiv.length){
+        if (pos1<0 || pos1>= massiv.length || pos2<0 || pos2>= massiv.length || pos1==pos2){
             System.out.println("Ошибка параметров!!! Некорректно указаны позиции для замены");
         }
         else{
